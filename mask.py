@@ -7,10 +7,24 @@ import numpy as np
 # import imageio.v2 as imageio
 from collections import Counter
 
+
+# import pathlib
+# from pathlib import Path
+
+# #Получаем строку, содержащую путь к рабочей директории:
+# dir_path = pathlib.Path.cwd()
+ 
+# # Объединяем полученную строку с недостающими частями пути
+# data_lidar = Path(dir_path, 'depth_map_estimation_method','data lidar')
+# data_model = Path(dir_path, 'depth_map_estimation_method','data model')
+
+# # выведем значение переменной path:
+# print('======='+str(data_lidar)+"----------"+str(data_model))
+
 lidar_folder = r'C:/Users/Hp/Desktop/monodepth2/assets/best_lidar/'
-# neuron_folder =r'C:/Users/Hp/Desktop/monodepth2/assets/result/'
+neuron_folder =r'C:/Users/Hp/Desktop/monodepth2/assets/result/'
 neuron_folder =r'C:/Users/Hp/Desktop/monodepth2/assets/kirill/data/'
-# neuron_save = r'C:/Users/Hp/Desktop/monodepth2/assets/to_result/neuron/'
+neuron_save = r'C:/Users/Hp/Desktop/monodepth2/assets/to_result/neuron/'
 neuron_save = r'C:/Users/Hp/Desktop/monodepth2/assets/kirill/neuron/'
 # together_folder = r'C:/Users/Hp/Desktop/monodepth2/assets/to_result/toghether/'
 together_folder = r'C:/Users/Hp/Desktop/monodepth2/assets/kirill/toghether/'
