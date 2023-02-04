@@ -18,7 +18,7 @@
 
 ## Настройка
 Настройка данных:
-1.  Скачайте набор данных для тестирования ([KITTI](https://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion,%202022)) (Download manually selected validation and test data sets (2 GB)).
+1.  Скачайте набор данных для тестирования ([KITTI](https://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion,%202022)) (Download manually selected validation and test data sets (2 GB)) либо воспользуйтесь данными из статьи ([ссылка](https://drive.google.com/file/d/1cuGYm2giIQouX8ETWb_1zSo1Y-P07QQl/view?usp=sharing)).
 2.  Выберете тестируемую модель оценки карт глубины и произведите построение (либо воспользуйте готовыми изображениями которые использовались в статье ([ссылка](https://drive.google.com/file/d/1n7ojG7fpmrM3TG5GMSCHPLZ5eET0BBtx/view?usp=sharing)).
 3.  Изображения с лидара помещаются в папку `data lidar`, изображения из модели вставляются в `data model`.
 
