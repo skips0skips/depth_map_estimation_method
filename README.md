@@ -16,6 +16,12 @@
 На рисунке ниже продемонстрирован качественный метод оценки глубины. Красным цветом обозначеныте пиксели расстояние в которых расстояние полученное с лидара равно
 расстоянию, полученному с модели.
 
+<p align="center">
+  <img src="https://github.com/skips0skips/depth_map_estimation_method/blob/main/example/difference%20image/example.PNG"/>
+</p>
+
+Ознакомиться с данными и полученными изображениями исследования можно по ([ссылке](https://drive.google.com/file/d/1IxrfquJIjvRKydPC_8z2fYInzW9rIhSd/view?usp=sharing)).
+
 ## Настройка
 Настройка данных:
 1.  Скачайте набор данных для тестирования ([KITTI](https://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion,%202022)) (Download manually selected validation and test data sets (2 GB)) либо воспользуйтесь данными из статьи ([ссылка](https://drive.google.com/file/d/1cuGYm2giIQouX8ETWb_1zSo1Y-P07QQl/view?usp=sharing)).
